@@ -1,0 +1,8 @@
+cv2
+requests
+joblib
+flask
+requests
+opencv-python
+scikit-learn
+joblib
