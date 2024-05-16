@@ -1,0 +1,8 @@
+requests
+joblib==1.4.2
+flask==3.0.3
+opencv-python==4.9.0.80
+scikit-learn==1.2.2
+pandas==2.2.2
+flask_cors==4.0.1
+pip==24

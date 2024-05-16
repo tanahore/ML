@@ -1,0 +1,168 @@
+import os
+import cv2
+import requests
+import joblib
+import tempfile
+from flask import Flask, request, jsonify, redirect
+from flask_cors import CORS
+from dataclasses import dataclass
+from typing import Any, Dict
+import pandas as pd
+import joblib
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+
+app = Flask(__name__)
+app.config['ALLOWED_EXTENSIONS'] = set(['jpg', 'png', 'jpeg'])
+CORS(app)
+
+class PlantData:
+    kelembapan: int
+    intensitas_cahaya: int
+    ph: float
+    jenis_tanah: str
+
+def allowed_extension(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
+
+def check_server_availability(destination_url, timeout=30):
+    try:
+        response = requests.get(destination_url, timeout=timeout)
+        if response.status_code == 400:
+            return True
+        else:
+            return False
+    except requests.exceptions.Timeout:
+        return False
+
+def loadmodelSVM():
+    model = joblib.load('asset/model/svm/svm_model_with_cv_224.sav')
+    return model
+
+def loadModelDT():
+    print("masuk load")
+    model = joblib.load('asset/model/decision_tree/decision_tree_model.sav')
+    return model
+
+def processImage(image, target_size=(224, 224)):
+    img = cv2.imread(image)
+    img_resized = cv2.resize(img, target_size)
+    img_flat = img_resized.flatten()
+    img_2d = img_flat.reshape(1, -1)
+
+    return img_2d
+
+def predict_class(image):
+    model = loadmodelSVM()
+    predictions = model.predict(image)
+
+    return predictions
+
+def loadModelDT():
+    model = joblib.load('asset/model/decision_tree/decision_tree_model.sav')
+    column_transformer = joblib.load('asset/model/decision_tree/column_transformer.sav')
+    return model, column_transformer
+
+def preprocess_input(input_data, column_transformer):
+    # Convert input_data (dictionary) to DataFrame
+    input_df = pd.DataFrame([input_data])
+    
+    # Transform the input data using the loaded ColumnTransformer
+    input_encoded = column_transformer.transform(input_df)
+    print("encoded data : ", input_encoded)
+    return input_encoded
+
+def make_predictions(input_encoded, model):
+    print("encoded input: ", input_encoded)
+    predictions = model.predict(input_encoded)
+    return predictions.tolist()
+
+class PlantData:
+    def __init__(self, kelembapan, intensitas_cahaya, ph, jenis_tanah, vulkanik):
+        self.kelembapan = kelembapan
+        self.intensitas_cahaya = intensitas_cahaya
+        self.ph = ph
+        self.jenis_tanah = jenis_tanah
+        self.vulkanik = vulkanik
+
+@app.before_request
+def remove_trailing_slash():
+    if request.path != '/' and request.path.endswith('/'):
+        return redirect(request.path[:-1])
+
+@app.route("/", methods=['GET'])
+def homepage():
+    try:
+        # Membuka file HTML
+        with open("static/index.html", "r") as file:
+            return file.read()
+    except IOError as e:
+        print("Error:", e)
+        return "Error: File not found", 500
+
+@app.route("/api/recommendation", methods=['POST'])
+def plant_recommendation():
+    try:
+        input_data = request.get_json()
+        if not input_data:
+            raise ValueError("No input data provided")
+
+        plant = PlantData(**input_data)
+        data = {
+            "kelembapan": plant.kelembapan,
+            "intensitas cahaya": plant.intensitas_cahaya,
+            "ph": plant.ph,
+            "jenis tanah": plant.jenis_tanah,
+            "vulkanik": plant.vulkanik
+        }
+        model, column_transformer = loadModelDT()
+        encoded_data = preprocess_input(data, column_transformer)
+        prediction = make_predictions(encoded_data, model)
+
+        return jsonify({
+            "data":{
+                "plant_recommendation": prediction
+                },
+            "status":{
+                    "code":200,
+                    "message":"successfully recommending plant"
+                }}
+            ), 200
+    
+    except Exception as err:
+        app.logger.error(f"handler: bind input error: {err}")
+        return jsonify({"error": f"cannot embed data: {err}"}), 400
+
+@app.route("/api/predict", methods = ['POST'])
+def soil_prediction():
+        image = request.files["image"]
+        if image:
+            # Membuat file sementara untuk menyimpan file gambar
+            temp_dir = tempfile.mkdtemp()
+            temp_path = os.path.join(temp_dir, 'temp_image.jpg')
+            image.save(temp_path)
+
+            processed_image = processImage(temp_path)
+            print(processed_image)
+            predicted_class = predict_class(processed_image)
+            print(predicted_class)
+
+            os.remove(temp_path)
+            os.rmdir(temp_dir)
+            return jsonify({
+                "data": {
+                    "jenis_tanah": predicted_class.tolist()
+                }, 
+                "status": {
+                    "code": 200,
+                    "message": "successfully predicted soil type"
+                },
+            }), 200
+        else:
+            return jsonify({
+                "error": "image file needed"
+                }), 400
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8081)))
