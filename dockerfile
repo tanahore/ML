@@ -1,5 +1,5 @@
-# Menggunakan image Python 3.12.3
-FROM python:3.12.3
+# Menggunakan image Python 3.10.12
+FROM python:3.10.12
 
 # Menyalin file requirements.txt ke dalam image
 COPY requirements.txt /app/requirements.txt
