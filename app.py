@@ -19,9 +19,9 @@ CORS(app)
 
 class PlantData:
     kelembapan: int
-    intensitas_cahaya: int
+    intensitasCahaya: int
     ph: float
-    jenis_tanah: str
+    jenisTanah: str
 
 def allowed_extension(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
@@ -79,11 +79,11 @@ def make_predictions(input_encoded, model):
     return predictions.tolist()
 
 class PlantData:
-    def __init__(self, kelembapan, intensitas_cahaya, ph, jenis_tanah, vulkanik):
+    def __init__(self, kelembapan, intensitasCahaya, ph, jenisTanah, vulkanik):
         self.kelembapan = kelembapan
-        self.intensitas_cahaya = intensitas_cahaya
+        self.intensitasCahaya = intensitasCahaya
         self.ph = ph
-        self.jenis_tanah = jenis_tanah
+        self.jenisTanah = jenisTanah
         self.vulkanik = vulkanik
 
 @app.before_request
@@ -111,9 +111,9 @@ def plant_recommendation():
         plant = PlantData(**input_data)
         data = {
             "kelembapan": plant.kelembapan,
-            "intensitas cahaya": plant.intensitas_cahaya,
+            "intensitas cahaya": plant.intensitasCahaya,
             "ph": plant.ph,
-            "jenis tanah": plant.jenis_tanah,
+            "jenis tanah": plant.jenisTanah,
             "vulkanik": plant.vulkanik
         }
         model, column_transformer = loadModelDT()
@@ -122,7 +122,7 @@ def plant_recommendation():
 
         return jsonify({
             "data":{
-                "plant_recommendation": prediction
+                "plantRecommendation": prediction[0]
                 },
             "status":{
                     "code":200,
@@ -146,13 +146,13 @@ def soil_prediction():
             processed_image = processImage(temp_path)
             print(processed_image)
             predicted_class = predict_class(processed_image)
-            print(predicted_class)
+            print("predicted : ", predicted_class[0])
 
             os.remove(temp_path)
             os.rmdir(temp_dir)
             return jsonify({
                 "data": {
-                    "jenis_tanah": predicted_class.tolist()
+                    "jenis_tanah": predicted_class[0]
                 }, 
                 "status": {
                     "code": 200,
