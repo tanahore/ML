@@ -40,11 +40,6 @@ def loadmodelSVM():
     model = joblib.load('asset/model/svm/svm_model_with_cv_224.sav')
     return model
 
-def loadModelDT():
-    print("masuk load")
-    model = joblib.load('asset/model/decision_tree/decision_tree_model.sav')
-    return model
-
 def processImage(image, target_size=(224, 224)):
     img = cv2.imread(image)
     img_resized = cv2.resize(img, target_size)
@@ -60,8 +55,8 @@ def predict_class(image):
     return predictions
 
 def loadModelDT():
-    model = joblib.load('asset/model/decision_tree/decision_tree_model.sav')
-    column_transformer = joblib.load('asset/model/decision_tree/column_transformer.sav')
+    model = joblib.load('asset/model/decision_tree/decision_tree_model_v1.1.sav')
+    column_transformer = joblib.load('asset/model/decision_tree/column_transformer_v1.1.sav')
     return model, column_transformer
 
 def preprocess_input(input_data, column_transformer):
@@ -79,12 +74,11 @@ def make_predictions(input_encoded, model):
     return predictions.tolist()
 
 class PlantData:
-    def __init__(self, kelembapan, intensitasCahaya, ph, jenisTanah, vulkanik):
+    def __init__(self, kelembapan, intensitasCahaya, ph, jenisTanah):
         self.kelembapan = kelembapan
         self.intensitasCahaya = intensitasCahaya
         self.ph = ph
         self.jenisTanah = jenisTanah
-        self.vulkanik = vulkanik
 
 @app.before_request
 def remove_trailing_slash():
@@ -113,8 +107,7 @@ def plant_recommendation():
             "kelembapan": plant.kelembapan,
             "intensitas cahaya": plant.intensitasCahaya,
             "ph": plant.ph,
-            "jenis tanah": plant.jenisTanah,
-            "vulkanik": plant.vulkanik
+            "jenis tanah": plant.jenisTanah
         }
         model, column_transformer = loadModelDT()
         encoded_data = preprocess_input(data, column_transformer)
