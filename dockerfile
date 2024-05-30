@@ -1,5 +1,8 @@
-# Menggunakan image Python 3.10.12
-FROM python:3.10.12
+# Menggunakan image Python 3.10.12-slim
+FROM python:3.10.12-slim
+
+# Install dependensi yang dibutuhkan oleh OpenCV
+RUN apt-get update && apt-get install -y libgl1-mesa-glx
 
 # Menyalin file requirements.txt ke dalam image
 COPY requirements.txt /app/requirements.txt
