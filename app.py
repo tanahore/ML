@@ -158,4 +158,4 @@ def soil_prediction():
                 }), 400
 
 if __name__ == "__main__":
-    app.run(debug=True, host="34.71.144.202", port=8081)
+    app.run(debug=True, host="localhost", port=int(os.environ.get("PORT", 8081)))
