@@ -18,8 +18,9 @@ app.config['ALLOWED_EXTENSIONS'] = set(['jpg', 'png', 'jpeg'])
 CORS(app)
 
 class PlantData:
-    kelembapan: int
+    kelembapan: float
     intensitasCahaya: int
+    suhu: float
     ph: float
     jenisTanah: str
 
@@ -74,11 +75,12 @@ def make_predictions(input_encoded, model):
     return predictions.tolist()
 
 class PlantData:
-    def __init__(self, kelembapan, intensitasCahaya, ph, jenisTanah):
+    def __init__(self, kelembapan, intensitasCahaya, ph, jenisTanah, suhu):
         self.kelembapan = kelembapan
         self.intensitasCahaya = intensitasCahaya
         self.ph = ph
         self.jenisTanah = jenisTanah
+        self.suhu = suhu
 
 @app.before_request
 def remove_trailing_slash():
@@ -115,7 +117,11 @@ def plant_recommendation():
 
         return jsonify({
             "data":{
-                "plantRecommendation": prediction[0]
+                "plantRecommendation": prediction[0],
+                "suhu":plant.suhu,
+                "kelembapan":plant.kelembapan,
+                "ph":plant.ph,
+                "intensitasCahaya":plant.intensitasCahaya
                 },
             "status":{
                     "code":200,
