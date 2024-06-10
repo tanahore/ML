@@ -56,8 +56,8 @@ def predict_class(image):
     return predictions
 
 def loadModelDT():
-    model = joblib.load('asset/model/decision_tree/decision_tree_model_v1.1.sav')
-    column_transformer = joblib.load('asset/model/decision_tree/column_transformer_v1.1.sav')
+    model = joblib.load('asset/model/decision_tree/final_decision_tree_model_v1.2.sav')
+    column_transformer = joblib.load('asset/model/decision_tree/column_transformer_v1.2.sav')
     return model, column_transformer
 
 def preprocess_input(input_data, column_transformer):
