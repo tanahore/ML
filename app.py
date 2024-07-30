@@ -5,23 +5,18 @@ import joblib
 import tempfile
 from flask import Flask, request, jsonify, redirect
 from flask_cors import CORS
-from dataclasses import dataclass
-from typing import Any, Dict
 import pandas as pd
 import joblib
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import gensim
 from gensim.models import Word2Vec
 import numpy as np
 import nltk
-import itertools
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
-from nltk.tokenize import sent_tokenize, word_tokenize
 import scipy
-from scipy import spatial
 from nltk.tokenize.toktok import ToktokTokenizer
 import re
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 
 app = Flask(__name__)
@@ -48,20 +43,20 @@ class PlantData:
         self.suhu = suhu
 
 class Articles:
-    def __init__(self, ArticleID, SoilType, Title, Content, ImageURL):
-        self.ArticleID = ArticleID
-        self.SoilType = SoilType
-        self.Title = Title
-        self.Content = Content
-        self.ImageURL = ImageURL
+    def __init__(self, articleID, soilType, title, content, imageURL):
+        self.articleID = articleID
+        self.soilType = soilType
+        self.title = title
+        self.content = content
+        self.imageURL = imageURL
         
     def to_dict(self):
         return {
-            "articleID": self.ArticleID,
-            "soilType": self.SoilType,
-            "title": self.Title,
-            "content": self.Content,
-            "imageURL": self.ImageURL,
+            "articleID": self.articleID,
+            "soilType": self.soilType,
+            "title": self.title,
+            "content": self.content,
+            "imageURL": self.imageURL,
         }
 
 class ArticleData:
@@ -88,9 +83,10 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('words')
 
-stop = stopwords.words('indonesian')
+stopword_list = set(stopwords.words('indonesian'))
 tokenizer = ToktokTokenizer()
-stopword_list = nltk.corpus.stopwords.words('indonesian')
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()
     
 # def loadWord2vecModel():
 #     model = gensim.models.KeyedVectors.load_word2vec_format('asset/model/word2vec/word2vec_nlp.bin', binary=True)
@@ -141,8 +137,6 @@ stopword_list = nltk.corpus.stopwords.words('indonesian')
 # --------------------------------- V2.0 ------------------------------------------
 
 def remove_stopwords(text, is_lower_case=False):
-    pattern = r'[^a-zA-Z0-9\s]'
-    text = re.sub(pattern, "", text)
     tokens = tokenizer.tokenize(text)
     tokens = [token.strip() for token in tokens]
     if is_lower_case:
@@ -152,7 +146,6 @@ def remove_stopwords(text, is_lower_case=False):
     filtered_text = ' '.join(filtered_tokens)
     return filtered_text
 
-# Function to get the embedding vector for n dimension, we have used "300"
 def get_embedding(word, model):
     if word in model:
         return model[word]
@@ -168,10 +161,11 @@ def process_article(documents, model):
             embeddings = [get_embedding(x, model) for x in nltk.word_tokenize(remove_stopwords(sen))]
             if embeddings:
                 average_vector = np.mean(np.array(embeddings), axis=0)
-                if average_vector.shape == (300,):  # Ensure consistent shape
+                if average_vector.shape == (300,):
                     out_dict[sen] = average_vector
                 else:
                     print(f"Ignoring sentence '{sen}' due to inconsistent vector shape: {average_vector.shape}")
+                    print()
             else:
                 print(f"No valid embeddings for sentence: {sen}")
         except ValueError as e:
@@ -184,7 +178,8 @@ def get_sim(query_embedding, average_vector_doc):
 
 # Rank all the documents based on the similarity to get relevant docs
 def Ranked_documents(query, model):
-    query_embedding = np.mean(np.array([get_embedding(x, model) for x in nltk.word_tokenize(query.lower())], dtype=float), axis=0)
+    query = re.sub(r'[^a-zA-Z\s]', '', query)
+    query_embedding = np.mean(np.array([get_embedding(x, model) for x in nltk.word_tokenize(remove_stopwords(query.lower))], dtype=float), axis=0)
     rank = [(k, get_sim(query_embedding, v)) for k, v in out_dict.items() if v is not None and not np.isnan(v).any()]
     rank = sorted(rank, key=lambda t: t[1], reverse=True)
     return rank
@@ -210,40 +205,47 @@ def information_retrieval():
 
         articles = [Articles(**item) for item in articles_data]
 
-        article_contents = [article.Content for article in articles]
+        article_contents = [article.content for article in articles]
         model = loadWord2vecModel()
+        print("articles :",article_contents)
 
         process_article(article_contents, model)
+
         ranked = Ranked_documents(query, model)
 
         ranked_articles = []
         for content, similarity in ranked:
-            if similarity > 0.1 and similarity < 1:
-                print("similarity : ", similarity)
-                matched_article = next((article for article in articles if article.Content == content), None)
+            if similarity > 0.9:
+                matched_article = next((article for article in articles if article.content == content), None)
                 if matched_article:
                     ranked_articles.append({
-                        "articleID": matched_article.ArticleID,
-                        "soilType": matched_article.SoilType,
-                        "title": matched_article.Title,
-                        "content": matched_article.Content,
-                        "imageURL": matched_article.ImageURL,
+                        "articleID": matched_article.articleID,
+                        "soilType": matched_article.soilType,
+                        "title": matched_article.title,
+                        "content": matched_article.content,
+                        "imageURL": matched_article.imageURL,
                     })
 
         return jsonify({"articles": ranked_articles})
 
-
     except ValueError as e:
+        print("error : ", e)
         return jsonify({"error": str(e)}), 400
 
     except Exception as e:
+        print("error : ", e)
         return jsonify({"error": str(e)}), 500
-
-# -----------------------------------------------NLP Word2Vec-----------------------------------------------------------------
-# ----------------------------------------------------------------------------------------------------------------------------
 
 # ------------------------------------------------NLP TF-IDF------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------------
+def preprocess_text(text):
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    text = text.lower()
+    tokens = tokenizer.tokenize(text)
+    tokens = [token for token in tokens if token not in stopword_list]
+    tokens = [stemmer.stem(token) for token in tokens]
+    return ' '.join(tokens)
+
 @app.route("/api/articles/tfidf", methods=['POST'])
 def information_retrieval_tf_idf():
     try:
@@ -261,32 +263,41 @@ def information_retrieval_tf_idf():
         if not articles_data:
             raise ValueError("No articles provided")
 
-        # Process each article in the input array
+        # Proses setiap artikel dalam array input
         articles = []
         for item in articles_data:
             article = Articles(
-                ArticleID=item.get('articleID'),
-                SoilType=item.get('soilType'),
-                Title=item.get('title'),
-                Content=item.get('content'),
-                ImageURL=item.get('imageURL'),
+                articleID=item.get('articleID'),
+                soilType=item.get('soilType'),
+                title=item.get('title'),
+                content=item.get('content'),
+                imageURL=item.get('imageURL'),
             )
-            print("article : ", article.Content)
             articles.append(article)
-    
-        article_data = ArticleData(query=query, articles=[article.Content for article in articles])
-        vectorizer = TfidfVectorizer()
-        tfidf_matrix = vectorizer.fit_transform(article_data.articles + [article_data.query])
+        
+        # Preprocessing pada query dan artikel
+        preprocessed_query = preprocess_text(query)
+        preprocessed_articles = [preprocess_text(article.content) for article in articles]
+        
+        # TF-IDF Vectorization
+        vectorizer = TfidfVectorizer(
+            max_features=1000,         
+            ngram_range=(1, 4),        
+            min_df=1,               
+            use_idf=True,
+            smooth_idf=True,      
+            norm='l2'                  
+        )
+        tfidf_matrix = vectorizer.fit_transform(preprocessed_articles + [preprocessed_query])
         cosine_similarities = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1]).flatten()
 
+        # Membuat daftar hasil yang relevan
         result = []
         for idx, similarity in enumerate(cosine_similarities):
             if 0.1 < similarity < 1:
-                print("similarity : ", similarity)
+                print("sim : ")
+                print(similarity)
                 result.append(articles[idx].to_dict())
-                print("result : ", result)
-            else :
-                print("out : ", similarity)
 
         return jsonify({"articles": result})
 
@@ -294,18 +305,19 @@ def information_retrieval_tf_idf():
         return jsonify({"error": str(e)}), 400
 
     except Exception as e:
-        print("error : ", e)
+        print("Error:", e)
         return jsonify({"error": str(e)}), 500
-# ------------------------------------------------NLP TF-IDF------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------------
 
 def loadmodelSVM():
-    model = joblib.load('asset/model/svm/svm_model_with_cv_224.sav')
+    model = joblib.load('asset/model/svm/svm93.sav')
     return model
 
 def processImage(image, target_size=(224, 224)):
     img = cv2.imread(image)
     img_resized = cv2.resize(img, target_size)
+    # img_normalized = img_resized.astype('float32') / 255
     img_flat = img_resized.flatten()
     img_2d = img_flat.reshape(1, -1)
 
@@ -318,8 +330,8 @@ def predict_class(image):
     return predictions
 
 def loadModelDT():
-    model = joblib.load('asset/model/decision_tree/final_decision_tree_model_v1.2.sav')
-    column_transformer = joblib.load('asset/model/decision_tree/column_transformer_v1.2.sav')
+    model = joblib.load('asset/model/decision_tree/model_dt.sav')
+    column_transformer = joblib.load('asset/model/decision_tree/column_transformer_model_dt.sav')
     return model, column_transformer
 
 def preprocess_input(input_data, column_transformer):

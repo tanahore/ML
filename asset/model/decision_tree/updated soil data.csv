@@ -1,0 +1,2203 @@
+tanaman,kelembapan,ph,intensitas cahaya,jenis tanah
+bayam,55,6,400,humus
+bayam,57,6.1,402,humus
+bayam,60,6.2,404,humus
+bayam,40,6.3,406,humus
+bayam,41,6.4,408,humus
+bayam,46,6.5,410,humus
+bayam,50,6.6,412,humus
+bayam,59,6.7,414,humus
+bayam,51,6.8,416,humus
+bayam,53,6.9,418,humus
+bayam,52,7,420,humus
+bayam,53,6,422,humus
+bayam,54,6.1,424,humus
+bayam,41,6.2,426,humus
+bayam,42,6.3,428,humus
+bayam,43,6.4,430,humus
+bayam,44,6.5,432,humus
+bayam,45,6.6,434,humus
+bayam,46,6.7,436,humus
+bayam,47,6.8,438,humus
+bayam,48,6.9,440,humus
+bayam,49,7,442,humus
+bayam,60,6,444,humus
+bayam,57,6.1,446,humus
+bayam,56,6.2,448,humus
+bayam,57,6.3,450,humus
+bayam,58,6.4,452,humus
+bayam,40,6,454,humus
+bayam,41,6.1,456,humus
+bayam,42,6.2,458,humus
+bayam,43,6.3,460,humus
+bayam,44,6.4,462,humus
+bayam,45,6.5,464,humus
+bayam,46,6.6,466,humus
+bayam,47,6.7,468,humus
+bayam,48,6.8,470,humus
+bayam,49,6.9,472,humus
+bayam,50,7,474,humus
+bayam,51,6,476,humus
+bayam,52,6.1,478,humus
+bayam,53,6.2,480,humus
+bayam,54,6.3,482,humus
+bayam,55,6.4,484,humus
+bayam,56,6.5,486,humus
+bayam,57,6.6,488,humus
+bayam,58,6.7,490,humus
+bayam,59,6.8,492,humus
+bayam,60,6.9,494,humus
+bayam,59,7,496,humus
+bayam,58,6,498,humus
+bayam,57,6.1,500,humus
+bayam,56,6.2,502,humus
+bayam,55,6.3,504,humus
+bayam,54,6.4,506,humus
+bayam,53,6,508,humus
+bayam,52,6.1,510,humus
+bayam,51,6.2,512,humus
+bayam,50,6.3,514,humus
+bayam,49,6.4,516,humus
+bayam,48,6.5,518,humus
+bayam,47,6.6,520,humus
+bayam,46,6.7,522,humus
+bayam,45,6.8,524,humus
+bayam,44,6.9,526,humus
+bayam,43,7,528,humus
+bayam,42,6,530,humus
+bayam,41,6.1,532,humus
+bayam,40,6.2,534,humus
+bayam,41,6.3,536,humus
+bayam,42,6.4,538,humus
+bayam,43,6.5,540,humus
+bayam,44,6.6,542,humus
+bayam,45,6.7,544,humus
+bayam,46,6.8,546,humus
+bayam,47,6.9,548,humus
+bayam,48,7,550,humus
+bayam,49,6,552,humus
+bayam,50,6.1,554,humus
+bayam,51,6.2,556,humus
+bayam,52,6.3,558,humus
+bayam,53,6.4,560,humus
+bayam,54,6,562,humus
+bayam,55,6.1,564,humus
+bayam,56,6.2,566,humus
+bayam,57,6.3,568,humus
+bayam,58,6.4,570,humus
+bayam,59,6.5,572,humus
+bayam,60,6.6,574,humus
+bayam,59,6.7,576,humus
+bayam,58,6.8,578,humus
+bayam,57,6.9,580,humus
+bayam,56,7,582,humus
+bayam,55,6,584,humus
+bayam,54,6.1,586,humus
+bayam,53,6.2,588,humus
+bayam,52,6.3,590,humus
+bayam,51,6.4,592,humus
+bayam,50,6.5,594,humus
+bayam,49,6.6,596,humus
+bayam,48,6.7,598,humus
+bayam,47,6.8,600,humus
+bayam,46,6.9,602,humus
+bayam,45,7,604,humus
+bayam,44,6,606,humus
+bayam,43,6.1,608,humus
+bayam,42,6.2,610,humus
+bayam,41,6.3,612,humus
+bayam,40,6.4,614,humus
+bayam,41,6,616,humus
+bayam,42,6.1,618,humus
+bayam,43,6.2,620,humus
+bayam,44,6.3,622,humus
+bayam,45,6.4,624,humus
+bayam,46,6.5,626,humus
+bayam,47,6.6,628,humus
+bayam,48,6.7,630,humus
+bayam,49,6.8,632,humus
+bayam,50,6.9,634,humus
+bayam,51,7,636,humus
+bayam,52,6,638,humus
+bayam,53,6.1,640,humus
+bayam,54,6.2,642,humus
+bayam,55,6.3,644,humus
+bayam,56,6.4,646,humus
+bayam,57,6.5,648,humus
+bayam,58,6.6,650,humus
+bayam,59,6.7,652,humus
+bayam,60,6.8,654,humus
+bayam,59,6.9,656,humus
+bayam,58,7,658,humus
+bayam,57,6,660,humus
+bayam,56,6.1,662,humus
+bayam,55,6.2,664,humus
+bayam,54,6.3,666,humus
+bayam,53,6.4,668,humus
+bayam,52,6,670,humus
+bayam,51,6.1,672,humus
+bayam,50,6.2,674,humus
+bayam,49,6.3,676,humus
+bayam,48,6.4,678,humus
+bayam,47,6.5,680,humus
+bayam,46,6.6,682,humus
+bayam,45,6.7,684,humus
+bayam,44,6.8,686,humus
+bayam,43,6.9,688,humus
+bayam,42,7,690,humus
+bayam,41,6,692,humus
+bayam,40,6.1,694,humus
+bayam,41,6.2,696,humus
+bayam,42,6.3,698,humus
+bayam,43,6.4,700,humus
+bayam,44,6.5,702,humus
+bayam,45,6.6,704,humus
+bayam,46,6.7,706,humus
+bayam,47,6.8,708,humus
+bayam,48,6.9,710,humus
+bayam,49,7,712,humus
+bayam,50,6,714,humus
+bayam,51,6.1,716,humus
+bayam,52,6.2,718,humus
+bayam,53,6.3,720,humus
+bayam,54,6.4,722,humus
+bayam,55,6,724,humus
+bayam,56,6.1,726,humus
+bayam,57,6.2,728,humus
+bayam,58,6.3,730,humus
+bayam,59,6.4,732,humus
+bayam,60,6.5,734,humus
+bayam,59,6.6,736,humus
+bayam,58,6.7,738,humus
+bayam,57,6.8,740,humus
+bayam,56,6.9,742,humus
+bayam,55,7,744,humus
+bayam,54,6,746,humus
+bayam,53,6.1,748,humus
+bayam,52,6.2,750,humus
+bayam,51,6.3,752,humus
+bayam,50,6.4,754,humus
+bayam,49,6.5,756,humus
+bayam,48,6.6,758,humus
+bayam,47,6.7,760,humus
+bayam,46,6.8,762,humus
+bayam,45,6.9,764,humus
+bayam,44,7,766,humus
+bayam,43,6,768,humus
+bayam,42,6.1,770,humus
+bayam,41,6.2,772,humus
+bayam,40,6.3,774,humus
+bayam,41,6.4,776,humus
+bayam,42,6,778,humus
+bayam,43,6.1,780,humus
+bayam,44,6.2,782,humus
+bayam,45,6.3,784,humus
+bayam,46,6.4,786,humus
+bayam,47,6.5,788,humus
+bayam,48,6.6,790,humus
+bayam,49,6.7,792,humus
+bayam,50,6.8,794,humus
+bayam,51,6.9,796,humus
+bayam,52,7,798,humus
+bayam,53,6,800,humus
+kangkung,80,6,150,aluvial
+kangkung,81,6.1,151,aluvial
+kangkung,82,6.2,152,aluvial
+kangkung,83,6.3,153,aluvial
+kangkung,84,6.4,154,aluvial
+kangkung,85,6.5,155,aluvial
+kangkung,86,6.6,156,aluvial
+kangkung,87,6.7,157,aluvial
+kangkung,88,6.8,158,aluvial
+kangkung,89,6.9,159,aluvial
+kangkung,90,7,160,aluvial
+kangkung,89,6.9,161,aluvial
+kangkung,88,6.8,162,aluvial
+kangkung,87,6.7,163,aluvial
+kangkung,86,6.6,164,aluvial
+kangkung,85,6.5,165,aluvial
+kangkung,84,6.4,166,aluvial
+kangkung,83,6.3,167,aluvial
+kangkung,82,6.2,168,aluvial
+kangkung,81,6.1,169,aluvial
+kangkung,80,6,170,aluvial
+kangkung,81,6.2,171,aluvial
+kangkung,82,6.4,172,aluvial
+kangkung,83,6.6,173,aluvial
+kangkung,84,6.8,174,aluvial
+kangkung,85,7,175,aluvial
+kangkung,86,6.8,176,aluvial
+kangkung,87,6.6,177,aluvial
+kangkung,88,6.4,178,aluvial
+kangkung,89,6.2,179,aluvial
+kangkung,90,6,180,aluvial
+kangkung,80,7,181,aluvial
+kangkung,81,6.9,182,aluvial
+kangkung,82,6.8,183,aluvial
+kangkung,83,6.7,184,aluvial
+kangkung,84,6.6,185,aluvial
+kangkung,85,6.5,186,aluvial
+kangkung,86,6.4,187,aluvial
+kangkung,87,6.3,188,aluvial
+kangkung,88,6.2,189,aluvial
+kangkung,89,6.1,190,aluvial
+kangkung,90,6,191,aluvial
+kangkung,90,6.1,192,aluvial
+kangkung,89,6.2,193,aluvial
+kangkung,88,6.3,194,aluvial
+kangkung,87,6.4,195,aluvial
+kangkung,86,6.5,196,aluvial
+kangkung,85,6.6,197,aluvial
+kangkung,84,6.7,198,aluvial
+kangkung,83,6.8,199,aluvial
+kangkung,82,6.9,200,aluvial
+Kol,65,6.5,750,humus
+Kol,68,6.8,620,humus
+Kol,62,6.3,710,humus
+Kol,67,6.9,780,humus
+Kol,63,6.6,700,humus
+Kol,69,6.4,650,humus
+Kol,64,6.7,730,humus
+Kol,66,6.6,710,humus
+Kol,67,6.5,680,humus
+Kol,68,6.8,770,humus
+Kol,63,6.7,640,humus
+Kol,65,6.4,720,humus
+Kol,62,6.9,690,humus
+Kol,66,6.7,740,humus
+Kol,64,6.5,670,humus
+Kol,69,6.6,710,humus
+Kol,67,6.8,660,humus
+Kol,65,6.3,790,humus
+Kol,63,6.7,720,humus
+Kol,68,6.5,730,humus
+Kol,66,6.4,670,humus
+Kol,64,6.9,710,humus
+Kol,67,6.8,640,humus
+Kol,65,6.6,750,humus
+Kol,69,6.7,680,humus
+Kol,63,6.5,720,humus
+Kol,66,6.3,750,humus
+Kol,64,6.8,700,humus
+Kol,68,6.6,670,humus
+Kol,67,6.9,710,humus
+Kol,65,6.7,730,humus
+Kol,62,6.5,760,humus
+Kol,69,6.4,690,humus
+Kol,64,6.8,680,humus
+Kol,66,6.6,710,humus
+Kol,63,6.5,670,humus
+Kol,68,6.7,740,humus
+Kol,67,6.3,690,humus
+Kol,65,6.8,720,humus
+Kol,62,6.6,750,humus
+Kol,69,6.7,700,humus
+Kol,64,6.4,710,humus
+Kol,66,6.9,670,humus
+Kol,63,6.6,720,humus
+Kol,68,6.5,690,humus
+Kol,65,6.8,730,humus
+Kol,67,6.7,660,humus
+Kol,62,6.5,780,humus
+Kol,69,6.9,720,humus
+Kol,64,6.7,740,humus
+Kol,66,6.4,690,humus
+Kol,63,6.8,710,andosol
+Kol,68,6.6,670,andosol
+Kol,65,6.5,740,andosol
+Kol,67,6.3,710,andosol
+Kol,62,6.7,760,andosol
+Kol,69,6.5,720,andosol
+Kol,64,6.8,690,andosol
+Kol,66,6.6,680,andosol
+Kol,63,6.9,710,andosol
+Kol,68,6.7,670,andosol
+Kol,65,6.5,720,andosol
+Kol,67,6.4,750,andosol
+Kol,62,6.8,700,andosol
+Kol,69,6.6,710,andosol
+Kol,64,6.5,740,andosol
+Kol,66,6.3,730,andosol
+Kol,63,6.7,680,andosol
+Kol,68,6.5,710,andosol
+Kol,65,6.8,650,andosol
+Kol,67,6.6,670,andosol
+Kol,62,6.9,720,andosol
+Kol,69,6.7,690,andosol
+Kol,64,6.5,710,andosol
+Kol,66,6.4,750,andosol
+Kol,63,6.8,680,andosol
+Kol,68,6.6,710,andosol
+Kol,65,6.5,720,andosol
+Kol,67,6.3,740,andosol
+Kol,62,6.7,700,andosol
+Kol,69,6.5,730,andosol
+Kol,64,6.8,670,andosol
+Kol,66,6.6,710,andosol
+Kol,63,6.9,690,andosol
+Kol,68,6.7,720,andosol
+Kol,65,6.5,680,andosol
+Kol,67,6.3,710,andosol
+Kol,62,6.7,740,andosol
+Kol,69,6.5,700,andosol
+Kol,64,6.8,730,andosol
+Kol,66,6.6,710,andosol
+Kol,63,6.9,720,andosol
+Kol,68,6.7,690,andosol
+Kol,65,6.5,710,andosol
+Kol,67,6.3,750,andosol
+Kol,62,6.7,680,andosol
+Kol,69,6.5,710,andosol
+Kol,64,6.8,730,andosol
+Kol,66,6.6,700,andosol
+Kol,63,6.9,720,andosol
+Brokoli,68,6.8,720,humus
+Brokoli,63,6.5,650,humus
+Brokoli,66,6.9,710,humus
+Brokoli,65,6.7,680,humus
+Brokoli,62,6.6,750,humus
+Brokoli,69,6.4,730,humus
+Brokoli,67,6.8,700,humus
+Brokoli,64,6.5,670,humus
+Brokoli,68,6.7,720,humus
+Brokoli,66,6.9,690,humus
+Brokoli,63,6.6,710,humus
+Brokoli,67,6.7,760,humus
+Brokoli,65,6.8,740,humus
+Brokoli,69,6.5,680,humus
+Brokoli,64,6.4,730,humus
+Brokoli,66,6.6,710,humus
+Brokoli,62,6.9,670,humus
+Brokoli,68,6.8,720,humus
+Brokoli,65,6.5,750,humus
+Brokoli,67,6.7,710,humus
+Brokoli,63,6.6,700,humus
+Brokoli,66,6.5,680,humus
+Brokoli,64,6.7,730,humus
+Brokoli,68,6.8,690,humus
+Brokoli,65,6.5,720,humus
+Brokoli,67,6.7,740,humus
+Brokoli,62,6.6,710,humus
+Brokoli,69,6.8,760,humus
+Brokoli,64,6.7,730,humus
+Brokoli,66,6.5,690,humus
+Brokoli,63,6.4,710,humus
+Brokoli,67,6.6,750,humus
+Brokoli,65,6.9,720,humus
+Brokoli,68,6.8,680,humus
+Brokoli,64,6.5,710,humus
+Brokoli,66,6.7,700,humus
+Brokoli,62,6.6,680,humus
+Brokoli,69,6.5,730,humus
+Brokoli,65,6.7,720,humus
+Brokoli,67,6.8,690,humus
+Brokoli,63,6.5,710,humus
+Brokoli,66,6.7,740,humus
+Brokoli,64,6.6,710,humus
+Brokoli,68,6.8,730,humus
+Brokoli,65,6.5,680,humus
+Brokoli,67,6.7,710,humus
+Brokoli,62,6.6,700,humus
+Brokoli,69,6.5,680,humus
+Brokoli,64,6.8,750,humus
+Brokoli,66,6.7,720,humus
+Brokoli,63,6.6,690,humus
+Brokoli,67,6.5,710,andosol
+Brokoli,65,6.7,740,andosol
+Brokoli,68,6.8,710,andosol
+Brokoli,64,6.5,680,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Brokoli,65,6.7,700,andosol
+Brokoli,68,6.6,710,andosol
+Brokoli,64,6.5,690,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,740,andosol
+Brokoli,67,6.5,710,andosol
+Brokoli,65,6.7,680,andosol
+Brokoli,68,6.8,710,andosol
+Brokoli,64,6.5,730,andosol
+Brokoli,66,6.7,700,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,720,andosol
+Brokoli,65,6.7,740,andosol
+Brokoli,68,6.6,710,andosol
+Brokoli,64,6.5,680,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Brokoli,65,6.7,700,andosol
+Brokoli,68,6.8,710,andosol
+Brokoli,64,6.5,690,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Brokoli,65,6.7,700,andosol
+Brokoli,68,6.6,710,andosol
+Brokoli,64,6.5,680,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Brokoli,65,6.7,700,andosol
+Brokoli,68,6.8,710,andosol
+Brokoli,64,6.5,690,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Brokoli,65,6.7,700,andosol
+Brokoli,68,6.6,710,andosol
+Brokoli,64,6.5,680,andosol
+Brokoli,66,6.7,720,andosol
+Brokoli,63,6.6,710,andosol
+Brokoli,67,6.5,730,andosol
+Wortel,66,6.6,950,humus
+Wortel,62,6.2,800,humus
+Wortel,68,6.8,1050,humus
+Wortel,65,6.5,720,humus
+Wortel,63,6.7,1100,humus
+Wortel,69,6.4,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.3,1000,humus
+Wortel,66,6.8,800,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,750,humus
+Wortel,63,6.2,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.2,1000,humus
+Wortel,66,6.8,750,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,800,humus
+Wortel,63,6.3,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.2,1000,humus
+Wortel,66,6.8,750,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,800,humus
+Wortel,63,6.3,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.2,1000,humus
+Wortel,66,6.8,750,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,800,humus
+Wortel,63,6.3,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.2,1000,humus
+Wortel,66,6.8,750,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,800,humus
+Wortel,63,6.3,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,humus
+Wortel,67,6.6,950,humus
+Wortel,64,6.2,1000,humus
+Wortel,66,6.8,750,humus
+Wortel,62,6.5,1150,humus
+Wortel,68,6.7,900,humus
+Wortel,65,6.6,800,humus
+Wortel,63,6.3,1000,humus
+Wortel,69,6.8,850,humus
+Wortel,67,6.5,1100,humus
+Wortel,64,6.7,950,humus
+Wortel,66,6.4,1200,humus
+Wortel,62,6.6,800,humus
+Wortel,68,6.3,1050,humus
+Wortel,65,6.8,720,humus
+Wortel,63,6.5,1100,humus
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Wortel,66,6.8,750,andosol
+Wortel,62,6.5,1150,andosol
+Wortel,68,6.7,900,andosol
+Wortel,65,6.6,800,andosol
+Wortel,63,6.3,1000,andosol
+Wortel,69,6.8,850,andosol
+Wortel,67,6.5,1100,andosol
+Wortel,64,6.7,950,andosol
+Wortel,66,6.4,1200,andosol
+Wortel,62,6.6,800,andosol
+Wortel,68,6.3,1050,andosol
+Wortel,65,6.8,720,andosol
+Wortel,63,6.5,1100,andosol
+Wortel,69,6.7,850,andosol
+Wortel,67,6.6,950,andosol
+Wortel,64,6.2,1000,andosol
+Seledri,85,6.1,300,humus
+Seledri,87,6,250,humus
+Seledri,83,5.9,350,humus
+Seledri,82,6.5,280,humus
+Seledri,89,6.3,220,humus
+Seledri,84,6.6,380,humus
+Seledri,88,6.2,320,humus
+Seledri,81,5.8,270,humus
+Seledri,86,6.4,390,humus
+Seledri,90,6.7,400,humus
+Seledri,83,6,210,humus
+Seledri,87,5.9,370,humus
+Seledri,84,6.2,280,humus
+Seledri,89,6.6,300,humus
+Seledri,82,6.3,230,humus
+Seledri,86,6.5,360,humus
+Seledri,80,6.1,320,humus
+Seledri,88,6.4,380,humus
+Seledri,85,6.7,250,humus
+Seledri,90,5.8,390,humus
+Seledri,83,6.6,300,humus
+Seledri,87,6.2,220,humus
+Seledri,84,6.5,370,humus
+Seledri,89,6,260,humus
+Seledri,82,6.3,350,humus
+Seledri,86,6.7,230,humus
+Seledri,80,6.1,380,humus
+Seledri,88,6.4,250,humus
+Seledri,85,5.8,390,humus
+Seledri,90,6.6,300,humus
+Seledri,83,6.2,220,humus
+Seledri,87,6.5,370,humus
+Seledri,84,6,260,humus
+Seledri,89,6.3,350,humus
+Seledri,82,6.7,230,humus
+Seledri,86,6.1,380,humus
+Seledri,80,6.4,250,humus
+Seledri,88,5.8,390,humus
+Seledri,85,6.6,300,humus
+Seledri,90,6.2,220,humus
+Seledri,83,6.5,370,humus
+Seledri,87,6,260,humus
+Seledri,84,6.3,350,humus
+Seledri,89,6.7,230,humus
+Seledri,82,6.1,380,humus
+Seledri,86,6.4,250,humus
+Seledri,80,5.8,390,humus
+Seledri,88,6.6,300,humus
+Seledri,85,6.2,220,humus
+Seledri,90,6.5,370,humus
+Seledri,83,6,260,humus
+Seledri,87,6.3,350,humus
+Seledri,84,6.7,230,humus
+Seledri,89,6.1,380,humus
+Seledri,82,6.4,250,humus
+Seledri,86,5.8,390,humus
+Seledri,80,6.6,300,humus
+Seledri,88,6.2,220,humus
+Seledri,85,6.5,370,humus
+Seledri,90,6,260,humus
+Seledri,83,6.3,350,humus
+Seledri,87,6.7,230,humus
+Seledri,84,6.1,380,humus
+Seledri,89,6.4,250,humus
+Seledri,82,5.8,390,humus
+Seledri,86,6.6,300,humus
+Seledri,80,6.2,220,humus
+Seledri,88,6.5,370,humus
+Seledri,85,6,260,humus
+Seledri,90,6.3,350,humus
+Seledri,83,6.7,230,humus
+Seledri,87,6.1,380,humus
+Seledri,84,6.4,250,humus
+Seledri,89,5.8,390,humus
+Seledri,82,6.6,300,humus
+Seledri,86,6.2,220,humus
+Seledri,80,6.5,370,humus
+Seledri,88,6,260,humus
+Seledri,85,6.3,350,humus
+Seledri,90,6.7,230,humus
+Seledri,83,6.1,380,humus
+Seledri,87,6.4,250,humus
+Seledri,84,5.8,390,humus
+Seledri,89,6.6,300,humus
+Seledri,82,6.2,220,humus
+Seledri,86,6.5,370,humus
+Seledri,80,6,260,humus
+Seledri,88,6.3,350,humus
+Seledri,85,6.7,230,humus
+Seledri,90,6.1,380,humus
+Seledri,83,6.4,250,humus
+Seledri,87,5.8,390,humus
+Seledri,84,6.6,300,humus
+Seledri,89,6.2,220,humus
+Seledri,82,6.5,370,humus
+Seledri,86,6,260,humus
+Seledri,80,6.3,350,humus
+Seledri,88,6.7,230,humus
+Seledri,85,6.1,380,humus
+Seledri,90,6.4,250,humus
+Sawi,70,6.2,150,humus
+Sawi,75,6.8,180,humus
+Sawi,65,6.5,120,humus
+Sawi,72,6.3,200,humus
+Sawi,68,6.7,170,humus
+Sawi,78,6.4,130,humus
+Sawi,73,6.1,180,humus
+Sawi,70,6.6,110,humus
+Sawi,77,6.2,190,humus
+Sawi,66,6.9,160,humus
+Sawi,79,6.3,200,humus
+Sawi,71,6.7,140,humus
+Sawi,69,6.5,180,humus
+Sawi,76,6.1,150,humus
+Sawi,67,6.8,170,humus
+Sawi,74,6.4,120,humus
+Sawi,80,6.2,190,humus
+Sawi,63,6.6,130,humus
+Sawi,72,6.9,160,humus
+Sawi,68,6.3,200,humus
+Sawi,77,6.7,140,humus
+Sawi,69,6.5,180,humus
+Sawi,76,6.1,150,humus
+Sawi,67,6.8,170,humus
+Sawi,74,6.4,120,andosol
+Sawi,79,6.2,190,andosol
+Sawi,71,6.6,130,andosol
+Sawi,65,6.9,160,andosol
+Sawi,73,6.3,200,andosol
+Sawi,78,6.7,140,andosol
+Sawi,66,6.5,180,andosol
+Sawi,80,6.1,150,andosol
+Sawi,68,6.8,170,andosol
+Sawi,75,6.4,120,andosol
+Sawi,77,6.2,190,andosol
+Sawi,69,6.6,130,andosol
+Sawi,72,6.9,160,andosol
+Sawi,78,6.3,200,andosol
+Sawi,70,6.7,140,andosol
+Sawi,76,6.5,180,andosol
+Sawi,63,6.1,150,andosol
+Sawi,73,6.8,170,andosol
+Sawi,79,6.4,120,andosol
+Sawi,71,6.2,190,andosol
+Sawi,67,6.6,130,andosol
+Sawi,75,6.9,160,andosol
+Sawi,80,6.3,200,andosol
+Sawi,66,6.7,140,andosol
+Sawi,78,6.5,180,andosol
+Sawi,72,6.1,150,andosol
+Buncis,72,6.5,280,andosol
+Buncis,65,6.1,250,andosol
+Buncis,78,6.8,220,andosol
+Buncis,70,6.6,290,andosol
+Buncis,75,6.4,230,andosol
+Buncis,68,6.7,210,andosol
+Buncis,80,6.2,270,andosol
+Buncis,63,6.9,300,andosol
+Buncis,76,6.5,240,andosol
+Buncis,71,6.3,290,andosol
+Buncis,74,6.6,220,andosol
+Buncis,67,6.1,260,andosol
+Buncis,79,6.8,230,andosol
+Buncis,72,6.7,280,andosol
+Buncis,65,6.4,250,andosol
+Buncis,78,6.2,210,andosol
+Buncis,70,6.9,270,humus
+Buncis,75,6.5,300,humus
+Buncis,68,6.3,240,humus
+Buncis,80,6.6,290,humus
+Buncis,63,6.1,220,humus
+Buncis,76,6.8,260,humus
+Buncis,71,6.7,230,humus
+Buncis,74,6.4,280,humus
+Buncis,67,6.2,250,humus
+Buncis,79,6.9,210,humus
+Buncis,72,6.5,270,humus
+Buncis,65,6.3,300,humus
+Buncis,78,6.6,240,humus
+Buncis,70,6.1,290,humus
+Buncis,75,6.8,220,humus
+Buncis,68,6.7,260,humus
+Buncis,80,6.4,230,humus
+Buncis,63,6.2,280,aluvial
+Buncis,76,6.9,250,aluvial
+Buncis,71,6.5,210,aluvial
+Buncis,74,6.3,270,aluvial
+Buncis,67,6.6,300,aluvial
+Buncis,79,6.1,240,aluvial
+Buncis,72,6.8,290,aluvial
+Buncis,65,6.7,220,aluvial
+Buncis,78,6.4,260,aluvial
+Buncis,70,6.2,230,aluvial
+Buncis,75,6.9,280,aluvial
+Buncis,68,6.5,250,aluvial
+Buncis,80,6.3,210,aluvial
+Buncis,63,6.6,270,aluvial
+Buncis,76,6.1,300,aluvial
+Buncis,71,6.8,240,aluvial
+Buncis,74,6.7,290,aluvial
+Pare,75,6.5,200,humus
+Pare,70,6.2,180,humus
+Pare,65,6.8,220,humus
+Pare,78,6.6,240,humus
+Pare,72,6.4,210,humus
+Pare,68,6.7,230,humus
+Pare,80,6.1,250,humus
+Pare,63,6.9,160,humus
+Pare,76,6.5,220,humus
+Pare,71,6.3,180,humus
+Pare,74,6.6,190,humus
+Pare,67,6.1,210,humus
+Pare,79,6.8,230,humus
+Pare,73,6.7,240,humus
+Pare,66,6.4,200,humus
+Pare,77,6.2,180,humus
+Pare,70,6.9,250,humus
+Pare,75,6.5,210,humus
+Pare,68,6.3,220,humus
+Pare,80,6.6,230,humus
+Pare,63,6.1,240,humus
+Pare,76,6.8,160,humus
+Pare,71,6.7,220,humus
+Pare,74,6.4,230,humus
+Pare,67,6.2,200,humus
+Pare,79,6.9,180,aluvial
+Pare,73,6.5,190,aluvial
+Pare,66,6.3,210,aluvial
+Pare,77,6.6,230,aluvial
+Pare,70,6.1,250,aluvial
+Pare,75,6.8,240,aluvial
+Pare,68,6.7,160,aluvial
+Pare,80,6.4,220,aluvial
+Pare,63,6.2,230,aluvial
+Pare,76,6.9,200,aluvial
+Pare,71,6.5,180,aluvial
+Pare,74,6.3,190,aluvial
+Pare,67,6.6,210,aluvial
+Pare,79,6.1,230,aluvial
+Pare,73,6.8,240,aluvial
+Pare,66,6.7,160,aluvial
+Pare,77,6.4,220,aluvial
+Pare,70,6.2,230,aluvial
+Pare,75,6.9,200,aluvial
+Pare,68,6.5,180,aluvial
+Pare,80,6.3,190,aluvial
+Pare,63,6.6,210,aluvial
+Pare,76,6.1,230,aluvial
+Pare,71,6.8,240,aluvial
+Pare,74,6.7,160,aluvial
+Selada,71,6.3,250,humus
+Selada,68,5.8,300,humus
+Selada,75,6.5,350,humus
+Selada,72,6.2,200,humus
+Selada,69,6,400,humus
+Selada,76,6.4,350,humus
+Selada,73,6.1,250,humus
+Selada,70,5.9,300,humus
+Selada,77,6.6,350,humus
+Selada,74,6.3,200,humus
+Selada,71,5.7,400,humus
+Selada,68,6.4,350,humus
+Selada,75,6.1,250,humus
+Selada,72,5.8,300,humus
+Selada,69,6.5,350,humus
+Selada,76,6.2,200,humus
+Selada,73,6,400,humus
+Selada,70,6.4,350,humus
+Selada,77,6.1,250,humus
+Selada,74,5.9,300,humus
+Selada,71,6.6,350,humus
+Selada,68,6.3,200,humus
+Selada,75,5.7,400,humus
+Selada,72,6.4,350,humus
+Selada,69,6.1,250,humus
+Selada,76,5.8,300,humus
+Selada,73,6.5,350,humus
+Selada,70,6.2,200,humus
+Selada,77,6,400,humus
+Selada,74,6.4,350,humus
+Selada,71,6.1,250,humus
+Selada,68,5.9,300,humus
+Selada,75,6.6,350,humus
+Selada,72,6.3,200,humus
+Selada,69,5.7,400,humus
+Selada,76,6.4,350,humus
+Selada,73,6.1,250,humus
+Selada,70,5.8,300,humus
+Selada,77,6.5,350,humus
+Selada,74,6.2,200,humus
+Selada,71,6,400,humus
+Selada,68,6.4,350,humus
+Selada,75,6.1,250,humus
+Selada,72,5.8,300,humus
+Selada,69,6.5,350,humus
+Selada,76,6.2,200,humus
+Selada,73,6,400,humus
+Selada,70,6.4,350,humus
+Selada,77,6.1,250,humus
+Selada,74,5.8,300,humus
+Selada,71,6.6,350,humus
+Selada,68,6.3,200,humus
+Selada,75,6,400,humus
+Selada,72,6.4,350,humus
+Selada,69,6.1,250,humus
+Selada,76,5.8,300,humus
+Selada,73,6.5,350,humus
+Selada,70,6.2,200,humus
+Selada,77,6,400,humus
+Selada,74,6.4,350,humus
+Selada,71,6.1,250,humus
+Selada,68,5.8,300,humus
+Selada,75,6.5,350,humus
+Selada,72,6.2,200,humus
+Selada,69,6,400,humus
+Selada,76,6.4,350,humus
+Selada,73,6.1,250,humus
+Selada,70,5.8,300,humus
+Selada,77,6.6,350,humus
+Selada,74,6.3,200,humus
+Selada,71,6,400,humus
+Selada,68,6.4,350,humus
+Selada,75,6.1,250,humus
+Selada,72,5.8,300,humus
+Selada,69,6.5,350,humus
+Selada,76,6.2,200,humus
+Selada,73,6,400,humus
+Selada,70,6.4,350,humus
+Selada,77,6.1,250,humus
+Selada,74,5.8,300,humus
+Selada,71,6.6,350,humus
+Selada,68,6.3,200,humus
+Selada,75,6,400,humus
+Selada,72,6.4,350,humus
+Selada,69,6.1,250,humus
+Selada,76,5.8,300,humus
+Selada,73,6.5,350,humus
+Selada,70,6.2,200,humus
+Selada,77,6,400,humus
+Selada,74,6.4,350,humus
+Selada,71,6.1,250,humus
+Selada,68,5.8,300,humus
+Selada,75,6.5,350,humus
+Selada,72,6.2,200,humus
+Selada,69,6,400,humus
+Selada,76,6.4,350,humus
+Selada,73,6.1,250,humus
+Selada,70,5.8,300,humus
+Selada,77,6.5,350,humus
+Selada,74,6.2,200,humus
+Cabai,75,6.5,250,aluvial
+Cabai,70,6.2,280,aluvial
+Cabai,65,6.8,220,aluvial
+Cabai,78,6.6,270,aluvial
+Cabai,72,6.4,230,aluvial
+Cabai,68,6.7,210,aluvial
+Cabai,80,6.1,290,aluvial
+Cabai,63,6.9,240,aluvial
+Cabai,76,6.5,250,aluvial
+Cabai,71,6.3,280,aluvial
+Cabai,74,6.6,270,aluvial
+Cabai,67,6.1,290,aluvial
+Cabai,79,6.8,220,aluvial
+Cabai,73,6.7,210,aluvial
+Cabai,66,6.4,230,andosol
+Cabai,77,6.2,280,andosol
+Cabai,70,6.9,240,andosol
+Cabai,75,6.5,250,andosol
+Cabai,68,6.3,280,andosol
+Cabai,80,6.6,270,andosol
+Cabai,63,6.1,290,andosol
+Cabai,76,6.8,220,andosol
+Cabai,71,6.7,210,andosol
+Cabai,74,6.4,230,andosol
+Cabai,67,6.2,280,andosol
+Cabai,79,6.9,240,andosol
+Cabai,73,6.5,250,andosol
+Cabai,66,6.3,280,andosol
+Cabai,77,6.6,270,andosol
+Cabai,70,6.1,290,andosol
+Cabai,75,6.8,220,humus
+Cabai,68,6.7,210,humus
+Cabai,80,6.4,230,humus
+Cabai,63,6.2,280,humus
+Cabai,76,6.9,240,humus
+Cabai,71,6.5,250,humus
+Cabai,74,6.3,280,humus
+Cabai,67,6.6,270,humus
+Cabai,79,6.1,290,humus
+Cabai,73,6.8,220,humus
+Cabai,66,6.7,210,humus
+Cabai,77,6.4,230,humus
+Cabai,70,6.2,280,humus
+Cabai,75,6.9,240,humus
+Cabai,68,6.5,250,humus
+Cabai,80,6.3,280,humus
+Cabai,63,6.6,270,humus
+Cabai,76,6.1,290,humus
+Cabai,71,6.7,210,humus
+Cabai,74,6.4,230,humus
+Terong,75,6.5,200,andosol
+Terong,70,6.2,225,andosol
+Terong,65,6.8,190,andosol
+Terong,78,6.6,220,andosol
+Terong,72,6.4,230,andosol
+Terong,68,6.7,210,andosol
+Terong,80,6.1,240,andosol
+Terong,63,6.9,180,andosol
+Terong,76,6.5,200,andosol
+Terong,71,6.3,235,andosol
+Terong,74,6.6,220,andosol
+Terong,67,6.1,245,andosol
+Terong,79,6.8,195,andosol
+Terong,73,6.7,215,andosol
+Terong,66,6.4,225,andosol
+Terong,77,6.2,230,andosol
+Terong,70,6.9,185,andosol
+Terong,75,6.5,210,andosol
+Terong,68,6.3,240,andosol
+Terong,80,6.6,220,andosol
+Terong,63,6.1,245,andosol
+Terong,76,6.8,200,andosol
+Terong,71,6.7,215,andosol
+Terong,74,6.4,225,andosol
+Terong,67,6.2,230,andosol
+Terong,79,6.9,185,humus
+Terong,73,6.5,210,humus
+Terong,66,6.3,240,humus
+Terong,77,6.6,220,humus
+Terong,70,6.1,245,humus
+Terong,75,6.8,200,humus
+Terong,68,6.7,215,humus
+Terong,80,6.4,225,humus
+Terong,63,6.2,230,humus
+Terong,76,6.9,185,humus
+Terong,71,6.5,210,humus
+Terong,74,6.3,240,humus
+Terong,67,6.6,220,humus
+Terong,79,6.1,245,humus
+Terong,73,6.8,200,humus
+Terong,66,6.7,215,humus
+Terong,77,6.4,225,humus
+Terong,70,6.2,230,humus
+Terong,75,6.9,185,humus
+Terong,68,6.5,210,humus
+Terong,80,6.3,240,humus
+Terong,63,6.6,220,humus
+Terong,76,6.1,245,humus
+Terong,71,6.8,200,humus
+Terong,74,6.7,215,humus
+Mentimun,70,6.5,210,aluvial
+Mentimun,75,6.2,225,aluvial
+Mentimun,68,6.8,230,aluvial
+Mentimun,78,6.6,215,aluvial
+Mentimun,72,6.4,220,aluvial
+Mentimun,67,6.7,240,aluvial
+Mentimun,80,6.1,245,aluvial
+Mentimun,63,6.9,205,aluvial
+Mentimun,76,6.5,200,aluvial
+Mentimun,71,6.3,230,aluvial
+Mentimun,74,6.6,215,aluvial
+Mentimun,69,6.1,240,aluvial
+Mentimun,79,6.8,220,aluvial
+Mentimun,73,6.7,225,aluvial
+Mentimun,66,6.4,230,aluvial
+Mentimun,77,6.2,235,aluvial
+Mentimun,70,6.9,205,aluvial
+Mentimun,75,6.5,200,aluvial
+Mentimun,68,6.3,230,aluvial
+Mentimun,80,6.6,215,aluvial
+Mentimun,63,6.1,240,aluvial
+Mentimun,76,6.8,220,aluvial
+Mentimun,71,6.7,225,aluvial
+Mentimun,74,6.4,230,humus
+Mentimun,67,6.2,235,humus
+Mentimun,79,6.9,205,humus
+Mentimun,73,6.5,200,humus
+Mentimun,66,6.3,230,humus
+Mentimun,77,6.6,215,humus
+Mentimun,70,6.1,240,humus
+Mentimun,75,6.8,220,humus
+Mentimun,68,6.7,225,humus
+Mentimun,80,6.4,230,humus
+Mentimun,63,6.2,235,humus
+Mentimun,76,6.9,205,humus
+Mentimun,71,6.5,200,humus
+Mentimun,74,6.3,230,humus
+Mentimun,67,6.6,215,humus
+Mentimun,79,6.1,240,humus
+Mentimun,73,6.8,220,humus
+Mentimun,66,6.7,225,humus
+Mentimun,77,6.4,230,humus
+Mentimun,70,6.2,235,humus
+Mentimun,75,6.9,205,humus
+Mentimun,68,6.5,200,humus
+Mentimun,80,6.3,230,humus
+Mentimun,63,6.6,215,humus
+Mentimun,76,6.1,240,humus
+Mentimun,71,6.8,220,humus
+Mentimun,74,6.7,225,humus
+Kacang Hijau,68,6.5,220,andosol
+Kacang Hijau,75,6.2,235,andosol
+Kacang Hijau,60,6.8,210,andosol
+Kacang Hijau,78,6.6,225,andosol
+Kacang Hijau,72,6.4,230,andosol
+Kacang Hijau,67,6.7,240,andosol
+Kacang Hijau,80,6.1,245,andosol
+Kacang Hijau,63,6.9,205,andosol
+Kacang Hijau,76,6.5,200,andosol
+Kacang Hijau,70,6.3,230,andosol
+Kacang Hijau,74,6.6,225,andosol
+Kacang Hijau,69,6.1,240,andosol
+Kacang Hijau,79,6.8,220,andosol
+Kacang Hijau,73,6.7,225,andosol
+Kacang Hijau,66,6.4,230,andosol
+Kacang Hijau,77,6.2,235,andosol
+Kacang Hijau,70,6.9,205,andosol
+Kacang Hijau,75,6.5,200,andosol
+Kacang Hijau,68,6.3,230,andosol
+Kacang Hijau,80,6.6,225,andosol
+Kacang Hijau,63,6.1,240,andosol
+Kacang Hijau,76,6.8,220,andosol
+Kacang Hijau,71,6.7,225,andosol
+Kacang Hijau,74,6.4,230,andosol
+Kacang Hijau,67,6.2,235,andosol
+Kacang Hijau,79,6.9,205,humus
+Kacang Hijau,73,6.5,200,humus
+Kacang Hijau,66,6.3,230,humus
+Kacang Hijau,77,6.6,225,humus
+Kacang Hijau,70,6.1,240,humus
+Kacang Hijau,75,6.8,220,humus
+Kacang Hijau,68,6.7,225,humus
+Kacang Hijau,80,6.4,230,humus
+Kacang Hijau,63,6.2,235,humus
+Kacang Hijau,76,6.9,205,humus
+Kacang Hijau,71,6.5,200,humus
+Kacang Hijau,74,6.3,230,humus
+Kacang Hijau,67,6.6,225,humus
+Kacang Hijau,79,6.1,240,humus
+Kacang Hijau,73,6.8,220,humus
+Kacang Hijau,66,6.7,225,humus
+Kacang Hijau,77,6.4,230,humus
+Kacang Hijau,70,6.2,235,humus
+Kacang Hijau,75,6.9,205,humus
+Kacang Hijau,68,6.5,200,humus
+Kacang Hijau,80,6.3,230,humus
+Kacang Hijau,63,6.6,225,humus
+Kacang Hijau,76,6.1,240,humus
+Kacang Hijau,71,6.8,220,humus
+Kacang Hijau,74,6.7,225,humus
+Bawang Merah,72,6.5,220,aluvial
+Bawang Merah,78,6.2,235,aluvial
+Bawang Merah,65,6.8,210,aluvial
+Bawang Merah,80,6.6,225,aluvial
+Bawang Merah,74,6.4,230,aluvial
+Bawang Merah,67,6.7,240,aluvial
+Bawang Merah,75,6.1,245,aluvial
+Bawang Merah,63,6.9,205,aluvial
+Bawang Merah,76,6.5,200,aluvial
+Bawang Merah,71,6.3,230,aluvial
+Bawang Merah,68,6.6,225,aluvial
+Bawang Merah,79,6.1,240,aluvial
+Bawang Merah,73,6.8,220,aluvial
+Bawang Merah,66,6.7,225,aluvial
+Bawang Merah,77,6.4,230,aluvial
+Bawang Merah,70,6.2,235,humus
+Bawang Merah,78,6.9,205,humus
+Bawang Merah,64,6.5,200,humus
+Bawang Merah,75,6.3,230,humus
+Bawang Merah,69,6.6,225,humus
+Bawang Merah,80,6.1,240,humus
+Bawang Merah,72,6.8,220,humus
+Bawang Merah,67,6.7,225,humus
+Bawang Merah,76,6.4,230,humus
+Bawang Merah,71,6.2,235,humus
+Bawang Merah,68,6.9,205,humus
+Bawang Merah,79,6.5,200,humus
+Bawang Merah,63,6.3,230,humus
+Bawang Merah,77,6.6,225,humus
+Bawang Merah,70,6.1,240,humus
+Bawang Merah,75,6.8,220,humus
+Bawang Merah,68,6.7,225,andosol
+Bawang Merah,80,6.4,230,andosol
+Bawang Merah,73,6.2,235,andosol
+Bawang Merah,66,6.9,205,andosol
+Bawang Merah,77,6.5,200,andosol
+Bawang Merah,70,6.3,230,andosol
+Bawang Merah,75,6.6,225,andosol
+Bawang Merah,68,6.1,240,andosol
+Bawang Merah,80,6.8,220,andosol
+Bawang Merah,73,6.7,225,andosol
+Bawang Merah,66,6.4,230,andosol
+Bawang Merah,77,6.2,235,andosol
+Bawang Merah,70,6.9,205,andosol
+Bawang Merah,75,6.5,200,andosol
+Bawang Merah,68,6.3,230,andosol
+Bawang Merah,80,6.6,225,andosol
+Bawang Merah,73,6.1,240,andosol
+Bawang Merah,66,6.8,220,andosol
+Bawang Merah,77,6.7,225,andosol
+Daun Bawang,75,6.5,220,andosol
+Daun Bawang,78,6.2,235,andosol
+Daun Bawang,65,6.8,210,andosol
+Daun Bawang,80,6.6,225,andosol
+Daun Bawang,74,6.4,230,andosol
+Daun Bawang,67,6.7,240,andosol
+Daun Bawang,76,6.1,245,andosol
+Daun Bawang,63,6.9,205,andosol
+Daun Bawang,79,6.5,200,andosol
+Daun Bawang,70,6.3,230,andosol
+Daun Bawang,68,6.6,225,andosol
+Daun Bawang,79,6.1,240,andosol
+Daun Bawang,71,6.8,220,andosol
+Daun Bawang,66,6.7,225,andosol
+Daun Bawang,77,6.4,230,andosol
+Daun Bawang,70,6.2,235,andosol
+Daun Bawang,78,6.9,205,andosol
+Daun Bawang,64,6.5,200,andosol
+Daun Bawang,72,6.3,230,andosol
+Daun Bawang,68,6.6,225,andosol
+Daun Bawang,80,6.1,240,andosol
+Daun Bawang,72,6.8,220,andosol
+Daun Bawang,67,6.7,225,andosol
+Daun Bawang,76,6.4,230,andosol
+Daun Bawang,63,6.2,235,andosol
+Daun Bawang,79,6.9,205,humus
+Daun Bawang,71,6.5,200,humus
+Daun Bawang,66,6.3,230,humus
+Daun Bawang,77,6.6,225,humus
+Daun Bawang,69,6.1,240,humus
+Daun Bawang,75,6.8,220,humus
+Daun Bawang,64,6.7,225,humus
+Daun Bawang,73,6.4,230,humus
+Daun Bawang,68,6.2,235,humus
+Daun Bawang,80,6.9,205,humus
+Daun Bawang,72,6.5,200,humus
+Daun Bawang,66,6.3,230,humus
+Daun Bawang,77,6.6,225,humus
+Daun Bawang,69,6.1,240,humus
+Daun Bawang,75,6.8,220,humus
+Daun Bawang,64,6.7,225,humus
+Daun Bawang,73,6.4,230,humus
+Daun Bawang,68,6.2,235,humus
+Daun Bawang,80,6.9,205,humus
+Daun Bawang,72,6.5,200,humus
+Daun Bawang,66,6.3,230,humus
+Daun Bawang,77,6.6,225,humus
+Daun Bawang,69,6.1,240,humus
+Daun Bawang,75,6.8,220,humus
+Daun Bawang,64,6.7,225,humus
+Paprika,75,6.5,220,aluvial
+Paprika,78,6.2,235,aluvial
+Paprika,65,6.8,210,aluvial
+Paprika,80,6.6,225,aluvial
+Paprika,74,6.4,230,aluvial
+Paprika,67,6.7,240,aluvial
+Paprika,76,6.1,245,aluvial
+Paprika,63,6.9,205,aluvial
+Paprika,79,6.5,200,aluvial
+Paprika,70,6.3,230,aluvial
+Paprika,68,6.6,225,aluvial
+Paprika,79,6.1,240,aluvial
+Paprika,71,6.8,220,aluvial
+Paprika,66,6.7,225,aluvial
+Paprika,77,6.4,230,aluvial
+Paprika,70,6.2,235,humus
+Paprika,78,6.9,205,humus
+Paprika,64,6.5,200,humus
+Paprika,72,6.3,230,humus
+Paprika,68,6.6,225,humus
+Paprika,80,6.1,240,humus
+Paprika,72,6.8,220,humus
+Paprika,67,6.7,225,humus
+Paprika,76,6.4,230,humus
+Paprika,63,6.2,235,humus
+Paprika,79,6.9,205,humus
+Paprika,71,6.5,200,humus
+Paprika,66,6.3,230,humus
+Paprika,77,6.6,225,humus
+Paprika,69,6.1,240,humus
+Paprika,75,6.8,220,humus
+Paprika,64,6.7,225,andosol
+Paprika,73,6.4,230,andosol
+Paprika,68,6.2,235,andosol
+Paprika,80,6.9,205,andosol
+Paprika,72,6.5,200,andosol
+Paprika,66,6.3,230,andosol
+Paprika,77,6.6,225,andosol
+Paprika,69,6.1,240,andosol
+Paprika,75,6.8,220,andosol
+Paprika,64,6.7,225,andosol
+Paprika,73,6.4,230,andosol
+Paprika,68,6.2,235,andosol
+Paprika,80,6.9,205,andosol
+Paprika,72,6.5,200,andosol
+Paprika,66,6.3,230,andosol
+Paprika,77,6.6,225,andosol
+Paprika,69,6.1,240,andosol
+Paprika,75,6.8,220,andosol
+Paprika,64,6.7,225,andosol
+Pakcoy,76,6.5,220,humus
+Pakcoy,78,6.2,235,humus
+Pakcoy,75,6.8,210,humus
+Pakcoy,79,6.6,225,humus
+Pakcoy,74,6.4,230,humus
+Pakcoy,77,6.7,240,humus
+Pakcoy,76,6.1,245,humus
+Pakcoy,73,6.9,205,humus
+Pakcoy,78,6.5,200,humus
+Pakcoy,75,6.3,230,humus
+Pakcoy,79,6.6,225,humus
+Pakcoy,74,6.1,240,humus
+Pakcoy,77,6.8,220,humus
+Pakcoy,76,6.7,225,humus
+Pakcoy,73,6.4,230,humus
+Pakcoy,78,6.2,235,humus
+Pakcoy,75,6.9,205,humus
+Pakcoy,79,6.5,200,humus
+Pakcoy,74,6.3,230,humus
+Pakcoy,77,6.6,225,humus
+Pakcoy,76,6.1,240,humus
+Pakcoy,73,6.8,220,humus
+Pakcoy,78,6.7,225,humus
+Pakcoy,75,6.4,230,humus
+Pakcoy,79,6.2,235,humus
+Pakcoy,74,6.9,205,humus
+Pakcoy,77,6.5,200,humus
+Pakcoy,76,6.3,230,humus
+Pakcoy,73,6.6,225,humus
+Pakcoy,78,6.1,240,humus
+Pakcoy,75,6.8,220,humus
+Pakcoy,79,6.7,225,humus
+Pakcoy,74,6.4,230,humus
+Pakcoy,77,6.2,235,humus
+Pakcoy,76,6.9,205,humus
+Pakcoy,73,6.5,200,humus
+Pakcoy,78,6.3,230,humus
+Pakcoy,75,6.6,225,humus
+Pakcoy,79,6.1,240,humus
+Pakcoy,74,6.8,220,humus
+Pakcoy,77,6.7,225,humus
+Pakcoy,76,6.4,230,humus
+Pakcoy,73,6.2,235,humus
+Pakcoy,78,6.9,205,humus
+Pakcoy,75,6.5,200,humus
+Pakcoy,79,6.3,230,humus
+Pakcoy,74,6.6,225,humus
+Pakcoy,77,6.1,240,humus
+Pakcoy,76,6.8,220,humus
+Pakcoy,73,6.7,225,humus
+Pakcoy,78,6.4,230,andosol
+Pakcoy,75,6.2,235,andosol
+Pakcoy,79,6.9,205,andosol
+Pakcoy,74,6.5,200,andosol
+Pakcoy,77,6.3,230,andosol
+Pakcoy,76,6.6,225,andosol
+Pakcoy,73,6.1,240,andosol
+Pakcoy,78,6.8,220,andosol
+Pakcoy,75,6.7,225,andosol
+Pakcoy,79,6.4,230,andosol
+Pakcoy,74,6.2,235,andosol
+Pakcoy,77,6.9,205,andosol
+Pakcoy,76,6.5,200,andosol
+Pakcoy,73,6.3,230,andosol
+Pakcoy,78,6.6,225,andosol
+Pakcoy,75,6.1,240,andosol
+Pakcoy,79,6.8,220,andosol
+Pakcoy,74,6.7,225,andosol
+Pakcoy,77,6.4,230,andosol
+Pakcoy,76,6.2,235,andosol
+Pakcoy,73,6.9,205,andosol
+Pakcoy,78,6.5,200,andosol
+Pakcoy,75,6.3,230,andosol
+Pakcoy,79,6.6,225,andosol
+Pakcoy,74,6.1,240,andosol
+Pakcoy,77,6.8,220,andosol
+Pakcoy,76,6.7,225,andosol
+Pakcoy,73,6.4,230,andosol
+Pakcoy,78,6.2,235,andosol
+Pakcoy,75,6.9,205,andosol
+Pakcoy,79,6.5,200,andosol
+Pakcoy,74,6.3,230,andosol
+Pakcoy,77,6.6,225,andosol
+Pakcoy,76,6.1,240,andosol
+Pakcoy,73,6.8,220,andosol
+Pakcoy,78,6.7,225,andosol
+Pakcoy,75,6.4,230,andosol
+Pakcoy,79,6.2,235,andosol
+Pakcoy,74,6.9,205,andosol
+Pakcoy,77,6.5,200,andosol
+Pakcoy,76,6.3,230,andosol
+Pakcoy,73,6.6,225,andosol
+Pakcoy,78,6.1,240,andosol
+Pakcoy,75,6.8,220,andosol
+Pakcoy,79,6.7,225,andosol
+Pakcoy,74,6.4,230,andosol
+Pakcoy,77,6.2,235,andosol
+Pakcoy,76,6.9,205,andosol
+Pakcoy,73,6.5,200,andosol
+Pakcoy,78,6.3,230,andosol
+Labu,78,6.8,800,aluvial
+Labu,75,7,900,aluvial
+Labu,77,6.5,750,aluvial
+Labu,76,6.9,850,aluvial
+Labu,72,6.7,700,aluvial
+Labu,79,6.3,950,aluvial
+Labu,74,6.6,800,aluvial
+Labu,73,7.2,1000,aluvial
+Labu,78,6.8,800,aluvial
+Labu,75,7,900,aluvial
+Labu,77,6.5,750,aluvial
+Labu,76,6.9,850,aluvial
+Labu,72,6.7,700,aluvial
+Labu,79,6.3,950,aluvial
+Labu,74,6.6,800,aluvial
+Labu,73,7.2,1000,aluvial
+Labu,78,6.8,800,aluvial
+Labu,75,7,900,aluvial
+Labu,77,6.5,750,aluvial
+Labu,76,6.9,850,aluvial
+Labu,72,6.7,700,aluvial
+Labu,79,6.3,950,aluvial
+Labu,74,6.6,800,aluvial
+Labu,73,7.2,1000,aluvial
+Labu,78,6.8,800,aluvial
+Labu,75,7,900,aluvial
+Labu,77,6.5,750,aluvial
+Labu,76,6.9,850,aluvial
+Labu,72,6.7,700,aluvial
+Labu,79,6.3,950,aluvial
+Labu,74,6.6,800,aluvial
+Labu,73,7.2,1000,aluvial
+Labu,78,6.8,800,humus
+Labu,75,7,900,humus
+Labu,77,6.5,750,humus
+Labu,76,6.9,850,humus
+Labu,72,6.7,700,humus
+Labu,79,6.3,950,humus
+Labu,74,6.6,800,humus
+Labu,73,7.2,1000,humus
+Labu,78,6.8,800,humus
+Labu,75,7,900,humus
+Labu,77,6.5,750,humus
+Labu,76,6.9,850,humus
+Labu,72,6.7,700,humus
+Labu,79,6.3,950,humus
+Labu,74,6.6,800,humus
+Labu,73,7.2,1000,humus
+Labu,78,6.8,800,humus
+Labu,75,7,900,humus
+Labu,77,6.5,750,humus
+Labu,76,6.9,850,humus
+Labu,72,6.7,700,humus
+Labu,79,6.3,950,humus
+Labu,74,6.6,800,humus
+Labu,73,7.2,1000,humus
+Labu,78,6.8,800,humus
+Labu,75,7,900,humus
+Labu,77,6.5,750,humus
+Labu,76,6.9,850,humus
+Labu,72,6.7,700,humus
+Labu,79,6.3,950,humus
+Labu,74,6.6,800,humus
+Labu,73,7.2,1000,humus
+Labu,78,6.8,800,andosol
+Labu,75,7,900,andosol
+Labu,77,6.5,750,andosol
+Labu,76,6.9,850,andosol
+Labu,72,6.7,700,andosol
+Labu,79,6.3,950,andosol
+Labu,74,6.6,800,andosol
+Labu,73,7.2,1000,andosol
+Labu,78,6.8,800,andosol
+Labu,75,7,900,andosol
+Labu,77,6.5,750,andosol
+Labu,76,6.9,850,andosol
+Labu,72,6.7,700,andosol
+Labu,79,6.3,950,andosol
+Labu,74,6.6,800,andosol
+Labu,73,7.2,1000,andosol
+Labu,78,6.8,800,andosol
+Labu,75,7,900,andosol
+Labu,77,6.5,750,andosol
+Labu,76,6.9,850,andosol
+Labu,72,6.7,700,andosol
+Labu,79,6.3,950,andosol
+Labu,74,6.6,800,andosol
+Labu,73,7.2,1000,andosol
+Labu,78,6.8,800,andosol
+Labu,75,7,900,andosol
+Labu,77,6.5,750,andosol
+Labu,76,6.9,850,andosol
+Labu,72,6.7,700,andosol
+Labu,79,6.3,950,andosol
+Labu,74,6.6,800,andosol
+Labu,73,7.2,1000,andosol
+Labu,78,6.8,800,andosol
+Labu,75,7,900,andosol
+Labu,77,6.5,750,andosol
+Labu,76,6.9,850,andosol
+Asparagus,78,6.5,300,andosol
+Asparagus,75,6.9,250,andosol
+Asparagus,77,6.7,350,andosol
+Asparagus,76,6.8,400,andosol
+Asparagus,72,6.6,275,andosol
+Asparagus,79,6.5,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,andosol
+Asparagus,76,6.9,370,andosol
+Asparagus,72,6.7,275,andosol
+Asparagus,79,6.8,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,andosol
+Asparagus,76,6.9,370,andosol
+Asparagus,72,6.7,275,andosol
+Asparagus,79,6.8,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,andosol
+Asparagus,76,6.9,370,andosol
+Asparagus,72,6.7,275,andosol
+Asparagus,79,6.8,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,andosol
+Asparagus,76,6.9,370,andosol
+Asparagus,72,6.7,275,andosol
+Asparagus,79,6.8,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,andosol
+Asparagus,76,6.9,370,andosol
+Asparagus,72,6.7,275,andosol
+Asparagus,79,6.8,320,andosol
+Asparagus,74,6.9,230,andosol
+Asparagus,73,6.7,380,andosol
+Asparagus,78,6.8,390,andosol
+Asparagus,75,6.6,290,andosol
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Asparagus,72,6.7,275,humus
+Asparagus,79,6.8,320,humus
+Asparagus,74,6.9,230,humus
+Asparagus,73,6.7,380,humus
+Asparagus,78,6.8,390,humus
+Asparagus,75,6.6,290,humus
+Asparagus,77,6.5,350,humus
+Asparagus,76,6.9,370,humus
+Kacang Merah,79,6.5,600,andosol
+Kacang Merah,73,6.9,450,andosol
+Kacang Merah,77,6.7,700,andosol
+Kacang Merah,76,6.8,500,andosol
+Kacang Merah,72,6.6,550,andosol
+Kacang Merah,79,6.5,620,andosol
+Kacang Merah,74,6.9,430,andosol
+Kacang Merah,73,6.7,780,andosol
+Kacang Merah,78,6.8,740,andosol
+Kacang Merah,75,6.6,580,andosol
+Kacang Merah,77,6.5,650,andosol
+Kacang Merah,76,6.9,470,andosol
+Kacang Merah,72,6.7,720,andosol
+Kacang Merah,79,6.8,520,andosol
+Kacang Merah,74,6.6,530,andosol
+Kacang Merah,73,6.9,440,andosol
+Kacang Merah,78,6.7,770,andosol
+Kacang Merah,75,6.8,710,andosol
+Kacang Merah,77,6.6,590,andosol
+Kacang Merah,76,6.5,660,andosol
+Kacang Merah,72,6.9,480,andosol
+Kacang Merah,79,6.7,730,andosol
+Kacang Merah,74,6.8,530,andosol
+Kacang Merah,73,6.6,540,andosol
+Kacang Merah,78,6.9,450,andosol
+Kacang Merah,75,6.7,780,andosol
+Kacang Merah,77,6.8,740,andosol
+Kacang Merah,76,6.6,580,andosol
+Kacang Merah,72,6.5,650,andosol
+Kacang Merah,79,6.9,470,andosol
+Kacang Merah,74,6.7,720,andosol
+Kacang Merah,73,6.8,520,andosol
+Kacang Merah,78,6.6,530,andosol
+Kacang Merah,75,6.9,440,andosol
+Kacang Merah,77,6.7,770,andosol
+Kacang Merah,76,6.8,710,andosol
+Kacang Merah,72,6.6,590,andosol
+Kacang Merah,79,6.5,660,andosol
+Kacang Merah,74,6.9,480,andosol
+Kacang Merah,73,6.7,730,andosol
+Kacang Merah,78,6.8,530,andosol
+Kacang Merah,75,6.6,540,andosol
+Kacang Merah,77,6.9,450,andosol
+Kacang Merah,76,6.7,780,andosol
+Kacang Merah,72,6.8,740,andosol
+Kacang Merah,79,6.6,580,andosol
+Kacang Merah,74,6.5,650,andosol
+Kacang Merah,73,6.9,470,andosol
+Kacang Merah,78,6.7,720,andosol
+Kacang Merah,75,6.8,520,andosol
+Kacang Merah,77,6.6,530,andosol
+Kacang Merah,76,6.9,440,andosol
+Kacang Merah,72,6.7,770,andosol
+Kacang Merah,79,6.8,710,andosol
+Kacang Merah,74,6.6,590,andosol
+Kacang Merah,73,6.5,660,andosol
+Kacang Merah,78,6.9,480,andosol
+Kacang Merah,75,6.7,730,andosol
+Kacang Merah,77,6.8,530,andosol
+Kacang Merah,76,6.6,540,andosol
+Kacang Merah,72,6.9,450,andosol
+Kacang Merah,79,6.7,780,andosol
+Kacang Merah,74,6.8,740,andosol
+Kacang Merah,73,6.6,580,andosol
+Kacang Merah,78,6.5,650,andosol
+Kacang Merah,75,6.9,470,andosol
+Kacang Merah,77,6.7,720,andosol
+Kacang Merah,76,6.8,520,andosol
+Kacang Merah,72,6.6,530,andosol
+Kacang Merah,79,6.9,440,andosol
+Kacang Merah,74,6.7,770,andosol
+Kacang Merah,73,6.8,710,andosol
+Kacang Merah,78,6.6,590,andosol
+Kacang Merah,75,6.5,660,andosol
+Kacang Merah,77,6.9,480,humus
+Kacang Merah,76,6.7,730,humus
+Kacang Merah,72,6.8,530,humus
+Kacang Merah,79,6.6,540,humus
+Kacang Merah,74,6.9,450,humus
+Kacang Merah,73,6.7,780,humus
+Kacang Merah,78,6.8,740,humus
+Kacang Merah,75,6.6,580,humus
+Kacang Merah,77,6.5,650,humus
+Kacang Merah,76,6.9,470,humus
+Kacang Merah,72,6.7,720,humus
+Kacang Merah,79,6.8,520,humus
+Kacang Merah,74,6.6,530,humus
+Kacang Merah,73,6.9,440,humus
+Kacang Merah,78,6.7,770,humus
+Kacang Merah,75,6.8,710,humus
+Kacang Merah,77,6.6,590,humus
+Kacang Merah,76,6.5,660,humus
+Kacang Merah,72,6.9,480,humus
+Kacang Merah,79,6.7,730,humus
+Kacang Merah,74,6.8,530,humus
+Kacang Merah,73,6.6,540,humus
+Kacang Merah,78,6.9,450,humus
+Kacang Merah,75,6.7,780,humus
+Kacang Merah,77,6.8,740,humus
+Kacang Merah,76,6.6,580,humus
+Kacang Merah,72,6.5,650,humus
+Kacang Merah,79,6.9,470,humus
+Kacang Merah,74,6.7,720,humus
+Kacang Merah,73,6.8,520,humus
+Kacang Merah,78,6.6,530,humus
+Kacang Merah,75,6.9,440,humus
+Kacang Merah,77,6.7,770,humus
+Kacang Merah,76,6.8,710,humus
+Kacang Merah,72,6.6,590,humus
+Kacang Merah,79,6.5,660,humus
+Kacang Merah,74,6.9,480,humus
+Kacang Merah,73,6.7,730,humus
+Kacang Merah,78,6.8,530,humus
+Kacang Merah,75,6.6,540,humus
+Kacang Merah,77,6.9,450,humus
+Kacang Merah,76,6.7,780,humus
+Kacang Merah,72,6.8,740,humus
+Kacang Merah,79,6.6,580,humus
+Kacang Merah,74,6.5,650,humus
+Kacang Merah,73,6.9,470,humus
+Kacang Merah,78,6.7,720,humus
+Kacang Merah,75,6.8,520,humus
+Kacang Merah,77,6.6,530,humus
+Kacang Merah,76,6.9,440,humus
+Kacang Merah,72,6.7,770,humus
+Kacang Merah,79,6.8,710,humus
+Kacang Merah,74,6.6,590,humus
+Kacang Merah,73,6.5,660,humus
+Kacang Merah,78,6.9,480,humus
+Kacang Merah,75,6.7,730,humus
+Kacang Merah,77,6.8,530,humus
+Kacang Merah,76,6.6,540,humus
+Kacang Merah,72,6.9,450,humus
+Kacang Merah,79,6.7,780,humus
+Kacang Merah,74,6.8,740,humus
+Kacang Merah,73,6.6,580,humus
+Kacang Merah,78,6.5,650,humus
+Kacang Merah,75,6.9,470,humus
+Kacang Merah,77,6.7,720,humus
+Kacang Merah,76,6.8,520,humus
+Kacang Merah,72,6.6,530,humus
+Kacang Merah,79,6.9,440,humus
+Kacang Merah,74,6.7,770,humus
+Kacang Merah,73,6.8,710,humus
+Kacang Merah,78,6.6,590,humus
+Kacang Merah,75,6.5,660,humus
+Kacang Merah,77,6.9,480,humus
+Kacang Merah,76,6.7,730,humus
+Kacang Merah,72,6.8,530,humus
+Kacang Merah,79,6.6,540,humus
+Lobak,73,6.5,320,andosol
+Lobak,77,6.8,280,andosol
+Lobak,76,6.2,380,andosol
+Lobak,78,6.6,340,andosol
+Lobak,71,6.9,250,andosol
+Lobak,74,6.4,300,andosol
+Lobak,75,6.7,370,andosol
+Lobak,79,6.3,290,andosol
+Lobak,72,6.8,310,andosol
+Lobak,76,6.5,260,andosol
+Lobak,78,6.7,390,andosol
+Lobak,71,6.4,370,andosol
+Lobak,74,6.9,320,andosol
+Lobak,75,6.6,280,andosol
+Lobak,79,6.2,380,andosol
+Lobak,72,6.7,340,andosol
+Lobak,77,6.3,250,andosol
+Lobak,73,6.8,300,andosol
+Lobak,76,6.5,370,andosol
+Lobak,78,6.7,290,andosol
+Lobak,71,6.4,310,andosol
+Lobak,74,6.9,260,andosol
+Lobak,75,6.6,390,andosol
+Lobak,79,6.2,370,andosol
+Lobak,72,6.7,320,andosol
+Lobak,77,6.3,280,andosol
+Lobak,73,6.8,380,andosol
+Lobak,76,6.5,340,andosol
+Lobak,78,6.7,250,andosol
+Lobak,71,6.4,300,andosol
+Lobak,74,6.9,370,andosol
+Lobak,75,6.6,290,andosol
+Lobak,79,6.2,310,andosol
+Lobak,72,6.7,260,humus
+Lobak,77,6.3,390,humus
+Lobak,73,6.8,370,humus
+Lobak,76,6.5,320,humus
+Lobak,78,6.7,280,humus
+Lobak,71,6.4,310,humus
+Lobak,74,6.9,260,humus
+Lobak,75,6.6,390,humus
+Lobak,79,6.2,370,humus
+Lobak,72,6.7,320,humus
+Lobak,77,6.3,280,humus
+Lobak,73,6.8,380,humus
+Lobak,76,6.5,340,humus
+Lobak,78,6.7,250,humus
+Lobak,71,6.4,300,humus
+Lobak,74,6.9,370,humus
+Lobak,75,6.6,290,humus
+Lobak,79,6.2,310,humus
+Lobak,72,6.7,260,humus
+Lobak,77,6.3,390,humus
+Lobak,73,6.8,370,humus
+Lobak,76,6.5,320,humus
+Lobak,78,6.7,280,humus
+Lobak,71,6.4,310,humus
+Lobak,74,6.9,260,humus
+Lobak,75,6.6,390,humus
+Lobak,79,6.2,370,humus
+Lobak,72,6.7,320,humus
+Lobak,77,6.3,280,humus
+Lobak,73,6.8,380,humus
+Lobak,76,6.5,340,humus
+Lobak,78,6.7,250,humus
+Lobak,71,6.4,300,humus
+Lobak,74,6.9,370,aluvial
+Lobak,75,6.6,290,aluvial
+Lobak,79,6.2,310,aluvial
+Lobak,72,6.7,260,aluvial
+Lobak,77,6.3,390,aluvial
+Lobak,73,6.8,370,aluvial
+Lobak,76,6.5,320,aluvial
+Lobak,78,6.7,280,aluvial
+Lobak,71,6.4,310,aluvial
+Lobak,74,6.9,260,aluvial
+Lobak,75,6.6,390,aluvial
+Lobak,79,6.2,370,aluvial
+Lobak,72,6.7,320,aluvial
+Lobak,77,6.3,280,aluvial
+Lobak,73,6.8,380,aluvial
+Lobak,76,6.5,340,aluvial
+Lobak,78,6.7,250,aluvial
+Lobak,71,6.4,300,aluvial
+Lobak,74,6.9,370,aluvial
+Lobak,75,6.6,290,aluvial
+Lobak,79,6.2,310,aluvial
+Lobak,72,6.7,260,aluvial
+Lobak,77,6.3,390,aluvial
+Lobak,73,6.8,370,aluvial
+Lobak,76,6.5,320,aluvial
+Lobak,78,6.7,280,aluvial
+Lobak,71,6.4,310,aluvial
+Lobak,74,6.9,260,aluvial
+Lobak,75,6.6,390,aluvial
+Lobak,79,6.2,370,aluvial
+Lobak,72,6.7,320,aluvial
+Lobak,77,6.3,280,aluvial
+Lobak,73,6.8,380,aluvial
+Lobak,76,6.5,340,aluvial
+Jagung,75,6.8,750,andosol
+Jagung,78,6.2,900,andosol
+Jagung,77,6.5,850,andosol
+Jagung,73,6.7,620,andosol
+Jagung,79,6.4,980,andosol
+Jagung,72,6.6,720,andosol
+Jagung,75,6.9,800,andosol
+Jagung,77,6.3,670,andosol
+Jagung,74,6.8,880,andosol
+Jagung,76,6.5,700,andosol
+Jagung,78,6.7,620,andosol
+Jagung,73,6.2,950,andosol
+Jagung,79,6.4,980,andosol
+Jagung,72,6.6,720,andosol
+Jagung,75,6.9,800,andosol
+Jagung,77,6.3,670,andosol
+Jagung,74,6.8,880,andosol
+Jagung,76,6.5,700,andosol
+Jagung,78,6.7,620,andosol
+Jagung,73,6.2,950,andosol
+Jagung,79,6.4,980,andosol
+Jagung,72,6.6,720,andosol
+Jagung,75,6.9,800,andosol
+Jagung,77,6.3,670,andosol
+Jagung,74,6.8,880,andosol
+Jagung,76,6.5,700,andosol
+Jagung,78,6.7,620,andosol
+Jagung,73,6.2,950,andosol
+Jagung,79,6.4,980,andosol
+Jagung,72,6.6,720,andosol
+Jagung,75,6.9,800,humus
+Jagung,77,6.3,670,humus
+Jagung,74,6.8,880,humus
+Jagung,76,6.5,700,humus
+Jagung,78,6.7,620,humus
+Jagung,73,6.2,950,humus
+Jagung,79,6.4,980,humus
+Jagung,72,6.6,720,humus
+Jagung,75,6.9,800,humus
+Jagung,77,6.3,670,humus
+Jagung,74,6.8,880,humus
+Jagung,76,6.5,700,humus
+Jagung,78,6.7,620,humus
+Jagung,73,6.2,950,humus
+Jagung,79,6.4,980,humus
+Jagung,72,6.6,720,humus
+Jagung,75,6.9,800,humus
+Jagung,77,6.3,670,humus
+Jagung,74,6.8,880,humus
+Jagung,76,6.5,700,humus
+Jagung,78,6.7,620,humus
+Jagung,73,6.2,950,humus
+Jagung,79,6.4,980,humus
+Jagung,72,6.6,720,humus
+Jagung,75,6.9,800,humus
+Jagung,77,6.3,670,humus
+Jagung,74,6.8,880,humus
+Jagung,76,6.5,700,humus
+Jagung,78,6.7,620,humus
+Jagung,73,6.2,950,humus
+Jagung,79,6.4,980,humus
+Jagung,72,6.6,720,humus
+Jagung,75,6.9,800,humus
+Jagung,77,6.3,670,aluvial
+Jagung,74,6.8,880,aluvial
+Jagung,76,6.5,700,aluvial
+Jagung,78,6.7,620,aluvial
+Jagung,73,6.2,950,aluvial
+Jagung,79,6.4,980,aluvial
+Jagung,72,6.6,720,aluvial
+Jagung,75,6.9,800,aluvial
+Jagung,77,6.3,670,aluvial
+Jagung,74,6.8,880,aluvial
+Jagung,76,6.5,700,aluvial
+Jagung,78,6.7,620,aluvial
+Jagung,73,6.2,950,aluvial
+Jagung,79,6.4,980,aluvial
+Jagung,72,6.6,720,aluvial
+Jagung,75,6.9,800,aluvial
+Jagung,77,6.3,670,aluvial
+Jagung,74,6.8,880,aluvial
+Jagung,76,6.5,700,aluvial
+Jagung,78,6.7,620,aluvial
+Jagung,73,6.2,950,aluvial
+Jagung,79,6.4,980,aluvial
+Jagung,72,6.6,720,aluvial
+Jagung,75,6.9,800,aluvial
+Jagung,77,6.3,670,aluvial
+Jagung,74,6.8,880,aluvial
+Jagung,76,6.5,700,aluvial
+Jagung,78,6.7,620,aluvial
+Jagung,73,6.2,950,aluvial
+Jagung,79,6.4,980,aluvial
+Jagung,72,6.6,720,aluvial
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Jagung,75,6.9,800,latosol
+Jagung,77,6.3,670,latosol
+Jagung,74,6.8,880,latosol
+Jagung,76,6.5,700,latosol
+Jagung,78,6.7,620,latosol
+Jagung,73,6.2,950,latosol
+Jagung,79,6.4,980,latosol
+Jagung,72,6.6,720,latosol
+Kemangi,72,6.8,540,humus
+Kemangi,65,6.5,400,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.4,580,humus
+Kemangi,75,6.6,480,humus
+Kemangi,68,6.9,520,humus
+Kemangi,71,6.3,420,humus
+Kemangi,76,6.7,560,humus
+Kemangi,73,6.8,590,humus
+Kemangi,70,6.5,410,humus
+Kemangi,68,6.7,550,humus
+Kemangi,77,6.4,390,humus
+Kemangi,74,6.2,350,humus
+Kemangi,69,6.6,600,humus
+Kemangi,72,6.9,520,humus
+Kemangi,70,6.3,420,humus
+Kemangi,75,6.7,560,humus
+Kemangi,71,6.8,590,humus
+Kemangi,68,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
+Kemangi,72,6.3,420,humus
+Kemangi,77,6.7,560,humus
+Kemangi,74,6.8,590,humus
+Kemangi,69,6.5,410,humus
+Kemangi,76,6.7,550,humus
+Kemangi,73,6.4,390,humus
+Kemangi,70,6.2,350,humus
+Kemangi,78,6.6,600,humus
+Kemangi,75,6.9,520,humus
